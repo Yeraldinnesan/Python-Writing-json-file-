@@ -43,23 +43,6 @@ def display_users():
     print()
 
 
-# # Function to log in a user
-# def log_in():
-#     print('User Log In')
-#     while True:
-#         email = input('Email: ')
-#         password = input('Password: ')
-
-#         if email in users and users[email]['password'] == password:
-#             print('You have logged in successfully!')
-#             return
-#         else:
-#             print('Invalid email or password')
-#             choice = input('Would you like to try again? (Y/N) ').lower()
-#             if choice == 'n':
-#                 print('Goodbye!')
-#                 return
-
 # Function to log in a user
 def log_in():
     print('User Log In')
